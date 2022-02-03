@@ -39,3 +39,20 @@ nav {
 .links {
   text-decoration: none;
 }
+/* main content css */
+.grid-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--headings);
+}
+.aside {
+  background-color: var(--aside);
+}
+.grid-item {
+  padding: 20px;
+}
