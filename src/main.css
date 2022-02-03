@@ -56,3 +56,12 @@ h3 {
 .grid-item {
   padding: 20px;
 }
+/* footer definition */
+footer {
+  background-color: var(--grey);
+  padding: 10px;
+  text-align: right;
+}
+footer p {
+  padding: auto;
+}
