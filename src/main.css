@@ -1,0 +1,41 @@
+/* root elements */
+:root {
+  --grey: #cccccc;
+  --darkgrey: rgba(104, 100, 100, 0.692);
+  --dark: rgb(54, 54, 54);
+  --secondary: #008c22;
+  --headings: #003d60;
+  --aside: #e0e0e0;
+}
+* {
+  scroll-behavior: smooth;
+  transition: 0.3s all ease;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* header and var items */
+header {
+  padding: 20px;
+  background-color: var(--grey);
+}
+nav {
+  background-color: rgb(54, 54, 54);
+  display: flex;
+}
+.nav-item {
+  padding: 20px;
+  color: white;
+  border-right: 2px solid white;
+}
+.active {
+  background-color: var(--secondary);
+}
+.nav-item:hover {
+  background-color: var(--secondary);
+}
+.links {
+  text-decoration: none;
+}
